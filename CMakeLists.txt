@@ -27,7 +27,7 @@ endif()
 CPMAddPackage(
   NAME SDL3
   GITHUB_REPOSITORY libsdl-org/SDL
-  GIT_TAG main
+  GIT_TAG release-3.2.0
   GIT_SHALLOW TRUE
   GIT_PROGRESS TRUE
 )
@@ -73,3 +73,4 @@ endfunction()
 
 add_subdirectory(examples/renderer/01-clear)
 add_subdirectory(examples/renderer/03-lines)
+add_subdirectory(examples/renderer/09-scaling)
